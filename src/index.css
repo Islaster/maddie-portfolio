@@ -1,0 +1,46 @@
+* {
+  background-color: #f2efea;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9.1ch; /* where the cursor stops. */
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typing-container {
+  width: 12ch;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.typing {
+  display: block;
+  width: 0;
+  animation: typing 2s steps(12, end) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cursor {
+  font-weight: 300; /* thinner */
+  font-size: inherit; /* matches surrounding text */
+  animation: blink 1s steps(1, end) infinite;
+  line-height: 1; /* tighter vertical alignment */
+  vertical-align: text-top; /* aligns better with text baseline */
+}
