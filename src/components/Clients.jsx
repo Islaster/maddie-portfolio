@@ -8,6 +8,7 @@ function Clients() {
     "microsoft.png",
     "universal_pictures.png",
     "sloomoo.avif",
+    "project_odyssey.png",
   ];
 
   return (

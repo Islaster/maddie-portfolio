@@ -53,7 +53,7 @@ function PortfolioGrid() {
 
   return (
     <section className="bg-white py-16 px-6 sm:px-12 md:px-24" id="work">
-      <h2 className="text-3xl font-semibold mb-10">🎬 Selected Projects</h2>
+      <h2 className="text-3xl font-semibold mb-10">🎬 Projects</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cardsData.map((card, index) => (

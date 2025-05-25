@@ -33,7 +33,7 @@ function Navbar() {
       {/* Mobile-only contact link */}
       <div className="md:hidden">
         <a href="#connect" className="text-sm font-semibold hover:underline">
-          contacts
+          contact
         </a>
       </div>
     </nav>
