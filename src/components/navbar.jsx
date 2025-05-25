@@ -1,8 +1,8 @@
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 sm:px-12 py-6 text-black bg-white">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 sm:px-12 py-4 text-black bg-white">
       {/* Left: Logo */}
-      <div className="h-20">
+      <div className="h-14">
         <a href="#home">
           <img src="/navbar/logo.png" alt="logo" className="h-full" />
         </a>

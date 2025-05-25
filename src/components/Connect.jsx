@@ -2,7 +2,7 @@ function Connect() {
   return (
     <section
       id="connect"
-      className="bg-white py-20 px-6 sm:px-12 md:px-24 text-black"
+      className="scroll-mt-[20px] bg-white py-20 px-6 sm:px-12 md:px-24 text-black"
     >
       <div className="max-w-3xl mx-auto space-y-6 text-center">
         <h2 className="text-3xl sm:text-4xl font-semibold">🌐 Let’s Connect</h2>
