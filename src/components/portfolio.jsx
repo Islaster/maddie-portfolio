@@ -12,7 +12,7 @@ function PortfolioGrid() {
       description:
         "A finalist at the 2025 Runway AI Film Festival, Emergence is a poetic short film that invites viewers into the final moments of a small creature's life, exploring themes of transformation and the ephemeral nature of existence.",
       mediaType: "image",
-      mediaSrc: "/portfolio/WWlaurel2.png",
+      mediaSrc: "/portfolio/EmergenceLaurel.png",
     },
     {
       title: "I [•••] You",
