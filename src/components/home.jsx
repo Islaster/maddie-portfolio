@@ -2,7 +2,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="pt-[122px] bg-[#f7f3ed] min-h-screen px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-center md:items-center md:justify-between gap-12"
+      className="pt-[122px] bg-[#f7f3ed] md:min-h-screen px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-center md:items-center md:justify-between gap-12"
     >
       {/* Left Side: Text */}
       <div className="max-w-[698px] h-auto space-y-4 text-center md:text-left">
