@@ -14,9 +14,9 @@ function App() {
       <Home />
       <About />
       <WhatIDo />
+      <Clients />
       <PortfolioGrid />
       <Connect />
-      <Clients />
     </main>
   );
 }

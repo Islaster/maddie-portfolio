@@ -1,13 +1,13 @@
 function Clients() {
   const clients = [
-    "Netflix",
-    "Secret Level",
-    "AI LA",
-    "Hollywood Professional Association",
-    "SMPTE",
-    "Microsoft",
-    "Universal Pictures",
-    "Sloomoo",
+    "netflix.png",
+    "secret_level.png",
+    "ai_la.png",
+    "hpa.png",
+    "smpte.png",
+    "microsoft.png",
+    "universal_pictures.png",
+    "sloomoo.avif",
   ];
 
   return (
@@ -21,8 +21,8 @@ function Clients() {
         </h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 text-sm sm:text-base font-medium text-gray-800">
           {clients.map((client, index) => (
-            <li key={index} className="hover:text-black">
-              {client}
+            <li key={index} className="flex items-center justify-center">
+              <img src={`clients/${client}`} alt="company logo" />
             </li>
           ))}
         </ul>

@@ -24,7 +24,7 @@ function Connect() {
             className="hover:underline"
             target="_blank"
           >
-            👉 Instagram
+            Instagram
           </a>
           <a
             href="https://linkedin.com/in/maddiehong"

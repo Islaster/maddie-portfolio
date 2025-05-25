@@ -28,7 +28,7 @@ function Home() {
         {/* Image wrapper offset */}
         <div className="relative w-full h-full overflow-hidden rounded-[60px] top-4 sm:top-8 md:top-10 right-4 sm:right-10 md:right-20">
           <img
-            src="/home/image.png"
+            src="/home/image.webp"
             alt="Maddie"
             className="w-full h-auto object-cover z-0"
           />
