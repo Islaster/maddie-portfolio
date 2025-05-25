@@ -1,8 +1,8 @@
 function Home() {
   return (
-    <main
+    <section
       id="home"
-      className="pt-[122px] bg-[#f7f3ed] min-h-screen px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-center md:items-center justify-between gap-12"
+      className="pt-[122px] bg-[#f7f3ed] min-h-screen px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-center md:items-center md:justify-between gap-12"
     >
       {/* Left Side: Text */}
       <div className="max-w-[698px] h-auto space-y-4 text-center md:text-left">
@@ -20,20 +20,21 @@ function Home() {
       </div>
 
       {/* Right Side: Image */}
-      <div className="relative w-[280px] sm:w-[360px] md:w-[536px] h-[300px] sm:h-[420px] md:h-[560px]">
+
+      <div className="relative w-[280px] sm:w-[360px] md:w-[536px] h-auto sm:h-[420px] md:h-[560px]">
         {/* Pink background */}
         <div className="absolute top-0 left-0 w-full h-full !bg-[#FB66FF] rounded-[60px] z-0" />
 
         {/* Image wrapper offset */}
         <div className="relative w-full h-full overflow-hidden rounded-[60px] top-4 sm:top-8 md:top-10 right-4 sm:right-10 md:right-20">
           <img
-            src="/home/headshot.jpg"
+            src="/home/image.png"
             alt="Maddie"
-            className="w-[600px] h-[620px] object-cover z-0"
+            className="w-full h-auto object-cover z-0"
           />
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 
