@@ -19,7 +19,7 @@ function PortfolioGrid() {
       description:
         "An AI-native short film featured on Escape.AI, awarded 2nd place in the Culver Cup.",
       mediaType: "image",
-      mediaSrc: "/portfolio/WWlaurel2.png",
+      mediaSrc: "/portfolio/IspaceYou_Hero.jpg",
     },
     {
       title: "New Shoulders",
