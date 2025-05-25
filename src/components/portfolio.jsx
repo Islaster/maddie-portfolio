@@ -4,8 +4,8 @@ function PortfolioGrid() {
       title: "Wilderness Within",
       description:
         "A finalist at Runway's Gen:48 AI filmmaking competition and featured at the Generative International Film Festival, this AI-driven horror short explores themes of mental illness and familial bonds through a surreal, forested lens. ",
-      mediaType: "video",
-      mediaSrc: "/portfolio/Outtakes.mp4",
+      mediaType: "image",
+      mediaSrc: "/portfolio/WWlaurel2.png",
     },
     {
       title: "Emergence",
