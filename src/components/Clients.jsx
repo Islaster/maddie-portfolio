@@ -9,6 +9,7 @@ function Clients() {
     "universal_pictures.png",
     "sloomoo.avif",
     "project_odyssey.png",
+    "machine_cinema.png",
   ];
 
   return (
