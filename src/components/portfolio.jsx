@@ -21,7 +21,7 @@ function PortfolioGrid() {
       mediaType: "image",
       mediaSrc: "/portfolio/IspaceYou_Hero.jpg",
     },
-    {
+    /*{
       title: "New Shoulders",
       description:
         "An AI-generated music video produced in under two weeks, showcasing rapid prototyping in AI filmmaking.",
@@ -48,7 +48,7 @@ function PortfolioGrid() {
         "Co-lead of Machine Cinema’s film sprint and interactive showcase, fostering community and innovation in AI-driven storytelling.",
       mediaType: "image",
       mediaSrc: "/portfolio/WWlaurel2.png",
-    },
+    },*/
   ];
 
   return (
