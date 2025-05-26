@@ -9,7 +9,7 @@ function Home() {
         <h1 className="text-4xl sm:text-5xl md:text-[64px] leading-none font-light font-[Montserrat]">
           Hello!
           <br />
-          <span className="font-normal md:leading-[1.18]">
+          <span className="font-normal md:leading-[1.2] lg:leading-normal leading-[1.2]">
             My name is Maddie.
           </span>
         </h1>
