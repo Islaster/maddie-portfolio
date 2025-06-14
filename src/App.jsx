@@ -4,6 +4,7 @@ import Connect from "./components/Connect";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 import PortfolioGrid from "./components/portfolio";
+import Reel from "./components/reel";
 import WhatIDo from "./components/whatIDo";
 import "./main.css";
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <WhatIDo />
       <Clients />
+      <Reel />
       <PortfolioGrid />
       <Connect />
     </main>
